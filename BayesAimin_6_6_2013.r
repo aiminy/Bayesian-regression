@@ -21,7 +21,7 @@ BayesAimin_6_6_2013<-function(nsb,re_b,ppa_start,testPi, mcmc)
     logPiComp = log(1 - pi)
     mean2pq = 0.5
     nua = 4
-    cat("Simulation of Bayes CPi\n")
+    cat("Start Simulation\n")
     #data = matrix(scan("trainData.out0"), ncol = nmarkers + 2,
     #    byrow = TRUE)
     
